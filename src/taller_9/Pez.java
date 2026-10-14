@@ -13,7 +13,6 @@ public class Pez extends Animal{
     @Override
     public void mostrarEspecie(){
         super.mostrarEspecie(); //Invoca el metodo de la clase Animal.
-        /*Si el metodo es privado no se puede invocar utilizando super*/
         System.out.println("Tipo de Agua: "+tipoDeAgua);
     }
 

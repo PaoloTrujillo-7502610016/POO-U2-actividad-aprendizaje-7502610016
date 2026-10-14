@@ -7,6 +7,7 @@ public class Empleado extends Persona {
 
     public Empleado(String nombre, int edad, String departamento){
         super(nombre, edad); //LLama al constructor de la clase Persona
+        //super(nombre, edad, salario); /*Intenta invocar un atributo privado de la clase Persona*/
         this.departamento = departamento;
     }
 

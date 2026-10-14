@@ -11,10 +11,4 @@ public class Animal {
         System.out.println("Especie: " + this.especie);
     }
 
-
-    /*Atributo privado:*/
-//    private void mostrarEspecie(){
-//        System.out.println("Especie: " + this.especie);
-//    }
-
 }
