@@ -15,6 +15,7 @@ public class Empleado extends Persona {
     public void mostrarDetalles(){
         super.mostrarDetalles(); //LLama al metodo de la clase Persona
         System.out.println("Departamento: "+departamento);
+        //System.out.println("Salario: "+super.salario); /*No se puede acceder a un atributo private*/
     }
 
 }
