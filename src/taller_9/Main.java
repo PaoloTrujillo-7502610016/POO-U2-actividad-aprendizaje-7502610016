@@ -9,6 +9,9 @@ public class Main {
         Empleado empleado = new Empleado("Paolo",32,"Administrativo");
         empleado.mostrarDetalles();
 
+        Pez pez = new Pez("Pez","de agua dulce");
+        pez.mostrarEspecie();
+
     }
 
 }
