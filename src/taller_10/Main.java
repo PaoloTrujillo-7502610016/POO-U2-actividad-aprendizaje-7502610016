@@ -6,6 +6,15 @@ public class Main {
 
         System.out.println("***Inicio del Programa***\n");
 
+        Persona persona = new Persona();
+        persona.presentarse();
+
+        Estudiante estudiante = new Estudiante();
+        estudiante.presentarse();
+
+        Profesor profesor = new Profesor();
+        profesor.presentarse();
+
 
     }
 
