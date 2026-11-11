@@ -15,6 +15,12 @@ public class Main {
         Profesor profesor = new Profesor();
         profesor.presentarse();
 
+        Vehiculo vehiculo = new Vehiculo();
+        vehiculo.moverse();
+
+        Bicicleta bicicleta = new Bicicleta();
+        bicicleta.moverse();
+
 
     }
 
