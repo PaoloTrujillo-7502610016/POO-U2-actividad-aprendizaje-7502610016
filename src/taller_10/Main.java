@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("***Inicio del Programa***\n");
+        System.out.println("\n***Inicio del Programa***\n");
 
         Persona persona = new Persona();
         persona.presentarse();
@@ -21,6 +21,8 @@ public class Main {
         Bicicleta bicicleta = new Bicicleta();
         bicicleta.moverse();
 
+        Sobreescribir sobreescribir = new Sobreescribir();
+        sobreescribir.presentarse();
 
     }
 
