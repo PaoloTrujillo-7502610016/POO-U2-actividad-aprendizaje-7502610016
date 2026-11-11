@@ -16,7 +16,7 @@ public class Main {
         Pez pez = new Pez("Pez", "de agua dulce");
         pez.mostrarEspecie();
 
-        System.out.println("\n***Fin del Programa***\n");
+        System.out.println("\n***Finalizacion del Programa***\n");
 
     }
 
